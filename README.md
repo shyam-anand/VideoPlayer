@@ -26,7 +26,7 @@ By default, the host for backend server is set as `localhost:8080`. This can be 
 
 ### Other Details
 
-The `FileUploader` class is responsible for splitting and sending the files.
+The `src/videoupload/FileUploader` class is responsible for splitting and sending the files.
 The video file will be split into CHUNK_SIZE sized chunks, and send to the server.
 After all the chunks are sent, a GET request is made to get the video url, which
 is used for playback
