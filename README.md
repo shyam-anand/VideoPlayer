@@ -18,7 +18,7 @@ npm install -g server
 serve -s build
 ```
 
-By default this starts a server on localhost:5000. The settings can be changed in `package.json`.
+This starts a server on `localhost:5000` by default. The settings can be changed in `package.json`.
 
 ### Configuration
 
