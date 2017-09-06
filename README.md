@@ -2,7 +2,7 @@
 
 React app for uploading video files and playback.
 
-### Deployment
+## Deployment
 
 You will need [npm](https://www.npmjs.com/get-npm) for running the app.
 
@@ -20,11 +20,11 @@ serve -s build
 
 This starts a server on `localhost:5000` by default. The settings can be changed in `package.json`.
 
-### Configuration
+## Configuration
 
 By default, the host for backend server is set as `localhost:8080`. This can be changed inside `src/videoupload/FileUploader.js`.
 
-### Other Details
+## Other Details
 
 All the upload and playback related code is under `/src/videoupload`.
 
