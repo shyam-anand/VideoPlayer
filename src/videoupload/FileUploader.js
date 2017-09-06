@@ -1,14 +1,18 @@
 export const POST = 'POST';
 export const GET = 'GET';
 export const HOST = 'http://localhost:8080';
+export const CHUNK_SIZE = 10 * 1024 * 1024; // 10 MB
 
 /**
- * Class with methods for uploading the file
+ * Class with methods for uploading the file.
+ * The video file will be split into CHUNK_SIZE sized chunks, and send to the server.
+ * After all the chunks are sent, a GET request is made to get the video url, which
+ * is used for playback
  */
 export default class FileUploader {
 	
 	constructor(onComplete, onProgress) {
-		this.CHUNK_SIZE = 10 * 1024 * 1024;
+		this.CHUNK_SIZE = CHUNK_SIZE;
 
 		this.fileChecksum = '';
 		this.chunkCount = 0;
