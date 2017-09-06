@@ -19,4 +19,4 @@ By default this starts a server on localhost:5000. The settings can be changed i
 
 ### Configuration
 
-By default, the host for backend server is set as 'localhost:8080'. This can be changed inside `src/videoupload/FileUploader.js'.
+By default, the host for backend server is set as `localhost:8080`. This can be changed inside `src/videoupload/FileUploader.js`.
