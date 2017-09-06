@@ -8,7 +8,7 @@ You will need [npm](https://www.npmjs.com/get-npm) for running the app.
 
 1. Download the sources.
 2. Run `npm install` to install the dependencies.
-3. Run `npm start` to start in debug mode on localhost:3000.
+3. Run `npm start` to start in debug mode.
 
 For a production build, run the below commands.
 `npm run build`
